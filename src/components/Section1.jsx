@@ -3,7 +3,6 @@ import React from "react";
 export const Section1 = () => {
   return (
     <div>
-      {" "}
       <section class="section1">
         <div class="overlay"></div>
         <h1 class="item-1">We are focused to provide highest quality.</h1>

@@ -28,16 +28,16 @@ export const Section2 = () => {
     },
   ];
 
-  const worker = workers.map(({ id, name, info, url }) => (
-    <p key={id}>{workers.name}</p>
-  ));
+  workers.map(({ id, name, info, url }) => <p key={id}>{workers.name}</p>);
 
   return (
     <div>
       <section class="section2">
         <ul>
           <h1 class="section2-h1">
-            <a name="o_nas">Our Team</a>
+            <a href="/#" name="o_nas">
+              Our Team
+            </a>
           </h1>
           <li class="list1">
             <div class="part1">

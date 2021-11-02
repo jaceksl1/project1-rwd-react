@@ -19,7 +19,9 @@ export const Nav = () => {
             </a>
           </div>
           <div>
-            <a class="b4">Contact</a>
+            <a href="/#" class="b4">
+              Contact
+            </a>
           </div>
         </div>
       </nav>
