@@ -1,3 +1,11 @@
+# Rebuild https://jaceksl1.github.io/project1-RWD/ into React. 
+Added:
+- Components - offer and team - Array.map()
+- React Component to Smooth Scroll to the Top
+- Changed CSS
+- Better RWD
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
