@@ -35,7 +35,7 @@ export const Section2 = () => {
       <section class="section2">
         <ul>
           <h1 class="section2-h1">
-            <<p id="o_nas">Our Team</p>
+            <p id="o_nas">Our Team</p>
           </h1>
           <li class="list1">
             <div class="part1">
