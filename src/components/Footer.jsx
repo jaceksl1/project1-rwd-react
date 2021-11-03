@@ -14,7 +14,7 @@ export const Footer = () => {
             target="_blank"
             rel="noreferrer"
             class="btn contact-details">
-            <i class="fab fa-facebook-square"></i> LinkedIn
+            <i class="fab fa-linkedin"></i> LinkedIn
           </a>
           <a
             id="profile-link"
