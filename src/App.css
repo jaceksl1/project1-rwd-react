@@ -172,13 +172,42 @@ body {
 
 .section3 {
   background-color: #405d78;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.addOfferBtn {
+  background-image: linear-gradient(92.88deg, #bead96 13.89%, #ffca2a 94.72%);
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-size: 16px;
+  font-weight: 500;
+  width: 10rem;
+  height: 4rem;
+  padding: 0 1.6rem;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all 0.5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.addOfferBtn:hover {
+  box-shadow: rgba(190, 173, 150, 0.5) 0 1px 30px;
+  transition-duration: 0.1s;
 }
 
 .section3-h1 {
   display: flex;
   justify-content: center;
   color: #ffffff;
-  padding: 5% 0 0 0;
+  padding: 5% 0 2% 0;
   font-size: 25px;
 }
 

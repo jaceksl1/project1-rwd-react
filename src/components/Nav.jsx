@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Nav = () => {
+const Nav = () => {
   return (
     <div>
       <nav class="container1">
@@ -28,3 +28,5 @@ export const Nav = () => {
     </div>
   );
 };
+
+export default Nav;

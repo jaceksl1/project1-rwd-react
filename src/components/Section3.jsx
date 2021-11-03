@@ -1,5 +1,6 @@
 import React from "react";
 import Offer from "./Offer";
+import ButtonAddOffer from "./ButtonAddOffer";
 
 const Section3 = () => {
   const items = [
@@ -30,6 +31,7 @@ const Section3 = () => {
           <div class="section3-h1">
             <h1 id="oferta_1">What can we do for You?</h1>
           </div>
+          <ButtonAddOffer />
           <div class="section3-box">
             <button className="s3-button">
               <Offer isNew={true} />

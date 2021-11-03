@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Section2 = () => {
+const Section2 = () => {
   const workers = [
     {
       id: 1,
@@ -76,3 +76,5 @@ export const Section2 = () => {
     </div>
   );
 };
+
+export default Section2;
