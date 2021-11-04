@@ -177,6 +177,13 @@ body {
   align-items: center;
 }
 
+.btn-wrapper {
+  padding: 2% 0 4% 0;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+
 .addOfferBtn {
   background-image: linear-gradient(92.88deg, #bead96 13.89%, #ffca2a 94.72%);
   border-radius: 8px;
@@ -207,7 +214,7 @@ body {
   display: flex;
   justify-content: center;
   color: #ffffff;
-  padding: 5% 0 2% 0;
+  padding: 5% 0 0 0;
   font-size: 25px;
 }
 
@@ -231,6 +238,16 @@ body {
   border: none;
   flex-wrap: wrap;
   position: relative;
+}
+
+.dot {
+  position: absolute;
+  left: calc(0px - 1vmax);
+  top: calc(0pc - 1vmax);
+  width: 2vmax;
+  height: 2vmax;
+  border-radius: 50%;
+  background: #e07a64;
 }
 
 .s3-button div {

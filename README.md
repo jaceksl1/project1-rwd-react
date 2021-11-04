@@ -1,16 +1,23 @@
 # Rebuilded project - https://jaceksl1.github.io/project1-RWD/ - into React
 
 Tech:
+
 - JS/React
 - HTML
 - CSS
 
-Added:
+Added (4.11.2021):
+
+- narrowed the code
+- added buttons with onClick - showItem and showWorker
+- added {useState}
+
+Added (31.10.2021):
+
 - Components - offer and team - Array.map()
 - React Component to Smooth Scroll to the Top
 - Changed CSS
 - Better RWD
-
 
 # Getting Started with Create React App
 
